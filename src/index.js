@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HooksApp from './HooksApp';
+import SimpleForm from './components/02-useEffect/SimpleForm';
 
-ReactDOM.render(<HooksApp />, document.getElementById('root'));
+ReactDOM.render(<SimpleForm />, document.getElementById('root'));
