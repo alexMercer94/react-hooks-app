@@ -2,9 +2,12 @@ import React, { useEffect } from 'react';
 
 const Message = () => {
     useEffect(() => {
-        console.log('componente montado');
+        const mouseM = (e) => {
+            console.log(':V');
+        };
+        window.addEventListener('mousemove', mouseM);
         return () => {
-            console.log('componente desmontado');
+            window.removeEventListener('mousemove', mouseM);
         };
     }, []);
 

@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SimpleForm from './components/02-useEffect/SimpleForm';
+import MultpleCustomHooks from './components/03-examples/MultpleCustomHooks';
 
-ReactDOM.render(<SimpleForm />, document.getElementById('root'));
+ReactDOM.render(<MultpleCustomHooks />, document.getElementById('root'));
